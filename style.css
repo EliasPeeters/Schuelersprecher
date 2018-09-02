@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#myVideo {
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    max-height: 50vh;
+}
+
+p {
+    z-index: 10;
+    margin: 40px;
+    line-height: 30px;
+}
+
+h2 {
+    margin: 40px;
+}
+
+
+#Navigation {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    transition: 800ms;
+}
+
+
+.ulNavigation {
+    list-style-type: none;
+    padding-left: 170px;
+}
+
+
+.NavigationItem {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavigationItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.NavigationItem a:hover {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+#Titel {
+    padding-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    font-weight: 100;
+
+}
+
+#TitleOnVideo {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: -40vh;
+}
+
+#content {
+
+
+}
+
+.Wahlziel {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+
+    .bgimg-1 {
+        height: 40vh;
+        position: relative;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("digital.jpg");
+
+    }
+
+
+    .bgimg-2 {
+        height: 40vh;
+        position: relative;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("reinraus.jpg");
+
+    }
+
+    .bgimg-3 {
+        height: 40vh;
+        position: relative;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("email.png");
+
+    }
+
+    .bgimg-4 {
+        height: 40vh;
+        position: relative;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("team.jpg");
+
+    }
+
+    .bgimg-5 {
+        height: 40vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("wahl.jpg");
+
+    }
+
+    .bgimg-6 {
+        height: 40vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("projektwoche.jpg");
+
+    }
+
+    .bgimg-0 {
+        height: 80vh;
+        position: relative;
+
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("ezgif-1-f78841e3f7.gif");
+
+    }
+}
+
+.bgimg-1 {
+    height: 40vh;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("digital.jpg");
+
+}
+
+
+.bgimg-2 {
+     height: 40vh;
+     position: relative;
+
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("reinraus.jpg");
+
+ }
+
+.bgimg-3 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("email.png");
+
+}
+
+.bgimg-4 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("team.jpg");
+
+}
+
+.bgimg-5 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("wahl.jpg");
+
+}
+
+.bgimg-6 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("projektwoche.jpg");
+
+}
+
+.bgimg-0 {
+    height: 80vh;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("ezgif-1-f78841e3f7.gif");
+
+}
+
+#Video {
+    height: 40vh;
+
+}
+
+.TitleOnImage {
+    margin: 0 auto;
+    color: black;
+
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 35vh;
+    color: white;
+    font-weight: 700;
+}
