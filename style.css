@@ -7,8 +7,13 @@
     right: 0;
     top: 0;
     width: 100%;
-    z-index: 0;
-    max-height: 50vh;
+
+    position: fixed;
+    z-index: -1;
+}
+
+#container {
+    height: 70vh;
 }
 
 p {
@@ -75,20 +80,34 @@ h2 {
 }
 
 #TitleOnVideo {
-    position: absolute;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    display: block;
+
+}
+
+#TitleOnVideoDiv {
+    position: fixed;
     margin: 0 auto;
-    margin-top: -40vh;
+    padding-top: 35vh;
+    z-index: -1;
+    width: 35%;
+    margin-left: 32.5%;
 }
 
 #content {
-
+    background-color: white;
 
 }
 
 .Wahlziel {
     max-width: 800px;
     margin: 100px auto;
+    background-color: white;
 }
+
+
 
 
 
